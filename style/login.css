@@ -1,0 +1,44 @@
+#parent {
+    border: 1px solid gray;
+    margin: 140px 630px;
+}
+
+#instaImg {
+    display: block;
+    margin: 40px auto 60px auto;
+    width: 50%;
+}
+
+.centerBox {
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    opacity: 0.5;
+}
+
+#logIn {
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    background-color: #c9daf5;
+    border: 1px solid #c9daf5;
+    border-radius: 10px;;
+    padding: 7px 30px;   
+}
+
+
+#forget {
+    margin: 150px auto 25px auto;
+    font-size: 22px;
+    color: #161f82;
+
+}

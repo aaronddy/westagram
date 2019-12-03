@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+     <link href="style/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+            <img class = "smallImg rightBorder" alt = "camera" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png"> 
+            <img class = "smallImg" id = "instagram" alt = "instagram" src = "img/logo_text.png">
+            <input type = "text" id = "navFind" placeholder = "검색"> 
+        <div>
+            <img class = "smallImg rightBorder" alt = "navigation" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png">  
+            <img class = "smallImg rightBorder" alt = "heart" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
+            <img class = "smallImg rightBorder" alt = "myPage" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png">  
+        </div>
+       </nav>
+    </div>
+    <div id = "browser">
+      <main>
+        <div id = "feeds">
+          <article id = "main-left">
+            <div class = "user">
+              <img class = "circle" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/b53b10a8028d28cfdef1bfed70b18ae0/5DFBB2D3/t51.2885-19/s150x150/49724010_236895490557524_3249308360478031872_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+              <span class = "userId bold">wework_위워크</span>
+            
+            <img class = "threeDot dotRight" alt = "threeDot" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png">
+            </div>
+            <div>
+              <img id = "iu" alt = "imgMain" src = "https://scontent-gmp1-1.cdninstagram.com/vp/7dd7d8e61047035d530ec7b8785e0e28/5E2E6E48/t51.2885-15/e35/69366856_2154583161509048_6271804732968189983_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=1">
+           </div> 
+                    
+            <div class = "white">
+              <img class = "smallImg underIu" alt = "like" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
+              <img class = "smallImg underIu" alt = "comment" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png">
+              <img class = "smallImg underIu" alt = "share" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png">
+              <img class = "smallImg threeDot"  alt = "book" src = "https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png">           
+            </div>
+           
+            <div class = "user">
+              <img class = "circleDetail" alt = "likeUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+              <span class = "totalLike"><span class = "bold">wecod</span>님 외 <span class = "bold">46</span>명이 좋아합니다</span>
+            </div>
+           
+            <div id = "commentPlus" class = "white">
+              <div>
+                <span class = "commentUser">d_dayxxo</span>
+                <span class = "commentMsg">'westagram' 끝이 보입니다 허허</span>
+              </div>
+              <div>
+                <span class = "commentUser">hey_jude</span>
+                <span class = "commentMsg">아이유 아이유 아이유 아이유</span>
+              </div>
+            </div>
+               <p class = "commentTime white">39분 전</p>
+            
+            <div id = "typeComment">
+              <input type = "text"  placeholder = "댓글 달기...">
+              <span><button type = "submit">게시</button></span>
+            </div>
+          </article>
+        </div>
+  
+        <div id = "main-right">
+          <div id = "white1" class = "user">
+              <img class = "circle2" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/b53b10a8028d28cfdef1bfed70b18ae0/5DFBB2D3/t51.2885-19/s150x150/49724010_236895490557524_3249308360478031872_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+              <span class = "userId bold">wework_위워크</span>
+          </div>
+          <div>
+            <div class = "makeBorder">
+              <div class = "bind">
+                <span class = "wordGray">스토리</span>
+                <span class = "wordBlack">모두 보기</span> 
+              </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+               <div>
+                <p class = "userId bold">wecode_위코드</p>
+                <p class = "timePassed">4분 전</p>
+              </div>
+                
+              </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/fe72f0704a8e80eab0e1040e42a4b465/5E0DD110/t51.2885-19/s320x320/67879165_662272640917279_8881524564585086976_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+                <div>
+                  <p class = "userId bold">looper</p>
+                  <p class = "timePassed">59분 전</p>
+                </div>
+               </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/ae8b4e447a9151324a749b4627d887d8/5DF50544/t51.2885-19/s320x320/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+                <div>
+                  <p class = "userId bold">류준열</p>
+                  <p class = "timePassed">3시간 전</p>
+                </div>
+               </div>
+            </div>
+
+            <div class = "makeBorder">
+              <div class = "bind">
+                <span class = "wordGray">회원님을 위한 추천</span>
+                <span class = "wordBlack">모두 보기</span>
+              </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "https://scontent-icn1-1.cdninstagram.com/vp/dcca337e93686997df102361db60db2c/5DF4ED4F/t51.2885-19/s320x320/51616861_258531261731722_2335377231565553664_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com">
+                <span class = "userId bold">박주호</span>
+                <span class = "follow">팔로우</span>
+              </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "http://mblogthumb4.phinf.naver.net/MjAxNzA4MDdfNDMg/MDAxNTAyMDg1NjA4OTkx.03m4moSoPam7FqVLVbvT3tQsoMOwLrUPQbmPJ2OtJiIg.Uxs4t774BAMHoYxHqUyLUnKOr8NArnYtqann-4rhEncg.JPEG.kyungchul87/%EC%95%84%EB%A1%A0_%EC%A1%B4%EC%8A%A8_%2810%29.jpg?type=w800">
+                <span class = "userId bold">Aaron Johnson</span>
+                <span class = "follow">팔로우</span>
+              </div>
+              <div class = "user">
+                <img class = "circle2" alt = "imgUser" src = "http://www.topstarnews.net/news/photo/201806/435849_85353_3759.jpg">
+                <span class = "userId bold">폴 킴</span>
+                <span class = "follow">팔로우</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
