@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 nav {
   border-bottom : 1px solid #e6e6e8; 
   padding : 30px;
@@ -159,6 +162,16 @@ div.user {
   color: #bfe0f2;
   font-size: medium;
   background-color: white;
+}
+
+.deleteBtn {
+  display: absolute;
+  float: right;
+  border: none;
+  background-color: white;
+  margin-right: 20px;
+  font: medium;
+  color: tomato;
 }
 
 .userId {
